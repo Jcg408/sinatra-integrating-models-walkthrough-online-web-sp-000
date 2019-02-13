@@ -1,5 +1,5 @@
 require 'pry'
-class TextAnalyzer
+
   attr_reader :text
  
   def initialize(text)
@@ -39,6 +39,6 @@ class TextAnalyzer
     end
  
     biggest
-    binding.pry
+   
   end
 end
